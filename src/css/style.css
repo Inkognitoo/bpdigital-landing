@@ -1,0 +1,33 @@
+@font-face{
+    font-family: SF UI Display;
+    src: url("src/font/SFUIDisplay-Medium.otf") format("opentype");
+    url('src/font/SFUIDisplay-Medium.otf.woff') format('woff'),
+    url('src/font/SFUIDisplay-Medium.otf.ttf') format('truetype');
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    min-width: 1440px;
+}
+
+header {
+    margin: auto;
+    margin-top: 80px;
+    width: 1240px;
+}
+
+.header-text {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 822px;
+    height: 126px;
+    font-family: "SF UI Display", serif;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.62;
+    letter-spacing: 0.4px;
+    color: #000000;
+}

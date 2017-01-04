@@ -198,7 +198,7 @@ footer {
 }
 
 .address {
-    align-self: flex-end;
+    margin-left: auto;
     font-family: SFUIText;
     font-size: 20px;
     font-weight: normal;

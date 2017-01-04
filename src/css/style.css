@@ -9,11 +9,25 @@ html, body{
     margin: 0;
     padding: 0;
     min-width: 1440px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "SF UI Display", serif;
 }
 
 header {
-    margin: auto;
     margin-top: 80px;
+    width: 1240px;
+}
+
+main {
+    width: 1240px;
+}
+
+footer {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 80px;
     width: 1240px;
 }
 
@@ -22,12 +36,173 @@ header {
     margin-bottom: 60px;
     width: 822px;
     height: 126px;
-    font-family: "SF UI Display", serif;
     font-size: 26px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.62;
     letter-spacing: 0.4px;
+    color: #000000;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.evkd {
+    width: 1240px;
+    height: 624px;
+    opacity: 0.9;
+    background-color: #fcf3f4;
+    display: flex;
+    align-items: center;
+}
+
+.evkd-image {
+    margin-left: 90px;
+    margin-right: 67px;
+}
+
+.evkd-text-header {
+    width: 407px;
+    height: 76px;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: 0.4px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.evkd-text-description {
+    width: 359px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: -0.4px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.evkd-text-link {
+    width: 184px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+.evkd-link {
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 1240px;
+    height: 574px;
+}
+
+.slant {
+    width: 373px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), radial-gradient(circle at 13% 84%, #0053b3, #137bf3 63%, #3091ff);
+}
+
+.business-card {
+    width: 817px;
+    background-color: #efedf5;
+}
+
+.brotrade {
+    width: 817px;
+    background-color: #fefae6;
+}
+
+.wendy {
+    width: 373px;
+    background-color: #e5f6f0;
+}
+
+.voznesenskij {
+    width: 373px;
+    background-color: #f0e9e5;
+}
+
+.open-program {
+    width: 817px;
+    background-color: #e5f4eb;
+}
+
+.block-header {
+    height: 30px;
+    font-family: SFUIDisplay;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #000000;
+}
+
+.block-description {
+    margin-top: 15px;
+    width: 80%;
+    height: 40px;
+    font-family: SFUIText;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #000000;
+}
+
+.block-image {
+    margin-top: 40px;
+}
+
+.email {
+    margin-right: 50px;
+    font-family: SFUIText;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #000000;
+}
+
+.phone {
+    font-family: SFUIText;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #000000;
+}
+
+.address {
+    align-self: flex-end;
+    font-family: SFUIText;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
     color: #000000;
 }

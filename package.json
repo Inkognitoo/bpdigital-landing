@@ -1,0 +1,22 @@
+{
+  "name": "bpdigital-landing",
+  "version": "0.1.0",
+  "description": "Landing page for BP Digital company",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inkognitoo/bpdigital-landing.git"
+  },
+  "author": "Inkognitoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inkognitoo/bpdigital-landing/issues"
+  },
+  "homepage": "https://github.com/Inkognitoo/bpdigital-landing#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

@@ -186,6 +186,7 @@ footer {
 }
 
 .email, .phone, .address {
+    text-decoration: none;
     font-family: SFUIText;
     font-size: 20px;
     font-weight: normal;

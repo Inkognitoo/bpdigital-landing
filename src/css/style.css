@@ -45,6 +45,41 @@ footer {
     justify-content: flex-end;
 }
 
+.block > h2 {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    font-family: SFUIDisplayBold serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #000000;
+}
+
+.block > p {
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    width: 80%;
+    height: 40px;
+    font-family: SFUITextRegular serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #000000;
+}
+
+.block > img {
+    margin-top: 40px;
+}
+
 .evkd {
     width: 1240px;
     height: 624px;
@@ -150,62 +185,19 @@ footer {
     background-color: #e5f4eb;
 }
 
-.block-header {
-    height: 30px;
-    font-family: SFUIDisplayBold serif;
-    font-size: 25px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: 0.4px;
-    text-align: center;
-    color: #000000;
-}
-
-.block-description {
-    margin-top: 15px;
-    width: 80%;
-    height: 40px;
-    font-family: SFUITextRegular serif;
-    font-size: 15px;
+.email, .phone, .address {
+    font-family: SFUIText;
+    font-size: 20px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: -0.2px;
-    text-align: center;
     color: #000000;
-}
-
-.block-image {
-    margin-top: 40px;
 }
 
 .email {
     margin-right: 50px;
-    font-family: SFUIText;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    color: #000000;
-}
-
-.phone {
-    font-family: SFUIText;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    color: #000000;
 }
 
 .address {
     margin-left: auto;
-    font-family: SFUIText;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    color: #000000;
 }

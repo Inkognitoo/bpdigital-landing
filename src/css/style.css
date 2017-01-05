@@ -1,0 +1,243 @@
+/*
+ Подключение необходимых шрифтов
+*/
+
+@font-face {
+    font-family: 'SFUIDisplayBold';
+    src: url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.eot');
+    src: url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.eot') format('embedded-opentype'),
+    url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.woff2') format('woff2'),
+    url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.woff') format('woff'),
+    url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.ttf') format('truetype'),
+    url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.svg#SFUIDisplayBold') format('svg');
+}
+
+@font-face {
+    font-family: 'SFUIDisplayHeavy';
+    src: url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.eot');
+    src: url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.eot') format('embedded-opentype'),
+    url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.woff2') format('woff2'),
+    url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.woff') format('woff'),
+    url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.ttf') format('truetype'),
+    url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.svg#SFUIDisplayHeavy') format('svg');
+}
+
+@font-face {
+    font-family: 'SFUIDisplayMedium';
+    src: url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.eot');
+    src: url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.eot') format('embedded-opentype'),
+    url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.woff2') format('woff2'),
+    url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.woff') format('woff'),
+    url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.ttf') format('truetype'),
+    url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.svg#SFUIDisplayMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'SFUITextRegular';
+    src: url('/src/fonts/SFUITextRegular/SFUITextRegular.eot');
+    src: url('/src/fonts/SFUITextRegular/SFUITextRegular.eot') format('embedded-opentype'),
+    url('/src/fonts/SFUITextRegular/SFUITextRegular.woff2') format('woff2'),
+    url('/src/fonts/SFUITextRegular/SFUITextRegular.woff') format('woff'),
+    url('/src/fonts/SFUITextRegular/SFUITextRegular.ttf') format('truetype'),
+    url('/src/fonts/SFUITextRegular/SFUITextRegular.svg#SFUITextRegular') format('svg');
+}
+
+/*
+ Основные тэги
+*/
+
+html, body{
+    margin: 0;
+    padding: 0;
+    min-width: 1440px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header, main, footer {
+    width: 1240px;
+}
+
+header {
+    margin-top: 80px;
+}
+
+footer {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-family: "SFUIDisplayMedium", serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 822px;
+    height: 126px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.4px;
+}
+
+/*
+  Основные блоки
+*/
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.block > h2 {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    font-family: "SFUIDisplayBold", serif;
+    font-size: 25px;
+    letter-spacing: 0.4px;
+}
+
+.block > p {
+    margin: 15px 0 0 0;
+    padding: 0;
+    height: 40px;
+    font-family: "SFUITextRegular", serif;
+    font-size: 15px;
+    line-height: 1.33;
+    letter-spacing: -0.2px;
+    text-align: center;
+}
+
+.block > img {
+    margin-top: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 1240px;
+    height: 574px;
+}
+
+/*
+ Отдельный подход к Единому виртуальному кабинету депутата
+*/
+
+.evkd {
+    width: 1240px;
+    height: 624px;
+    opacity: 0.9;
+    background-color: #fcf3f4;
+    display: flex;
+    align-items: center;
+}
+
+.evkd > img {
+    margin-left: 90px;
+    margin-right: 67px;
+}
+
+.evkd > section > h2 {
+    margin: 0 0 30px 0;
+    padding: 0;
+    font-family: "SFUIDisplayHeavy", serif;
+    width: 407px;
+    height: 76px;
+    font-size: 30px;
+    line-height: 1.27;
+    letter-spacing: 0.4px;
+}
+
+.evkd > section > p {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-family: "SFUITextRegular", serif;
+    width: 359px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: -0.4px;
+}
+
+.evkd > section > div {
+    font-family: "SFUITextRegular", serif;
+    display: flex;
+    height: 30px;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: -0.4px;
+}
+
+.evkd-link {
+    cursor: pointer;
+    padding-bottom: 5px;
+    margin-right: 7px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition-duration: 300ms;
+}
+
+.evkd-link:hover {
+    margin-right: 11px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+/*
+ Уточнения для каждого из блоков
+*/
+
+.slant {
+    width: 373px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), radial-gradient(circle at 13% 84%, #0053b3, #137bf3 63%, #3091ff);
+}
+
+.business-card {
+    width: 817px;
+    background-color: #efedf5;
+}
+
+.brotrade {
+    width: 817px;
+    background-color: #fefae6;
+}
+
+.brotrade > img {
+    box-shadow: 0 499px 0 95px white, 0 8px 34px -5px black
+}
+
+.wendy {
+    width: 373px;
+    background-color: #e5f6f0;
+}
+
+.voznesenskij {
+    width: 373px;
+    background-color: #f0e9e5;
+}
+
+.open-program {
+    width: 817px;
+    background-color: #e5f4eb;
+}
+
+/*
+ Стилизация футера
+*/
+.email, .phone, .address {
+    text-decoration: none;
+    font-family: "SFUITextRegular", serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.phone {
+    margin-left: 50px;
+}
+
+.address {
+    margin-left: auto;
+}

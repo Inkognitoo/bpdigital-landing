@@ -205,6 +205,10 @@ h1 {
     background-color: #fefae6;
 }
 
+.brotrade img {
+    box-shadow: 0 499px 0 95px white, 0 0 39px -5px black;
+}
+
 .wendy {
     width: 373px;
     background-color: #e5f6f0;

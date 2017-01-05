@@ -1,4 +1,48 @@
 /*
+ Подключение необходимых шрифтов
+*/
+
+@font-face {
+    font-family: 'SFUIDisplayBold';
+    src: url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.eot');
+    src: url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.eot') format('embedded-opentype'),
+    url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.woff2') format('woff2'),
+    url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.woff') format('woff'),
+    url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.ttf') format('truetype'),
+    url('/src/fonts/SFUIDisplayBold/SFUIDisplayBold.svg#SFUIDisplayBold') format('svg');
+}
+
+@font-face {
+    font-family: 'SFUIDisplayHeavy';
+    src: url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.eot');
+    src: url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.eot') format('embedded-opentype'),
+    url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.woff2') format('woff2'),
+    url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.woff') format('woff'),
+    url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.ttf') format('truetype'),
+    url('/src/fonts/SFUIDisplayHeavy/SFUIDisplayHeavy.svg#SFUIDisplayHeavy') format('svg');
+}
+
+@font-face {
+    font-family: 'SFUIDisplayMedium';
+    src: url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.eot');
+    src: url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.eot') format('embedded-opentype'),
+    url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.woff2') format('woff2'),
+    url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.woff') format('woff'),
+    url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.ttf') format('truetype'),
+    url('/src/fonts/SFUIDisplayMedium/SFUIDisplayMedium.svg#SFUIDisplayMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'SFUITextRegular';
+    src: url('/src/fonts/SFUITextRegular/SFUITextRegular.eot');
+    src: url('/src/fonts/SFUITextRegular/SFUITextRegular.eot') format('embedded-opentype'),
+    url('/src/fonts/SFUITextRegular/SFUITextRegular.woff2') format('woff2'),
+    url('/src/fonts/SFUITextRegular/SFUITextRegular.woff') format('woff'),
+    url('/src/fonts/SFUITextRegular/SFUITextRegular.ttf') format('truetype'),
+    url('/src/fonts/SFUITextRegular/SFUITextRegular.svg#SFUITextRegular') format('svg');
+}
+
+/*
  Основные тэги
 */
 

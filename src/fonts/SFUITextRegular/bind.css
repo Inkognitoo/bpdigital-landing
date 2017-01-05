@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'SFUITextRegular';
-    src: url('./fonts/SFUITextRegular.eot');
-    src: url('./fonts/SFUITextRegular.eot') format('embedded-opentype'),
-         url('./fonts/SFUITextRegular.woff2') format('woff2'),
-         url('./fonts/SFUITextRegular.woff') format('woff'),
-         url('./fonts/SFUITextRegular.ttf') format('truetype'),
-         url('./fonts/SFUITextRegular.svg#SFUITextRegular') format('svg');
-}

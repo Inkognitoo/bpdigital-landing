@@ -1,3 +1,7 @@
+/*
+ Основные тэги
+*/
+
 html, body{
     margin: 0;
     padding: 0;
@@ -5,38 +9,37 @@ html, body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: "SF UI Display", serif;
+}
+
+header, main, footer {
+    width: 1240px;
 }
 
 header {
     margin-top: 80px;
-    width: 1240px;
-}
-
-main {
-    width: 1240px;
 }
 
 footer {
     display: flex;
     margin-top: 120px;
     margin-bottom: 80px;
-    width: 1240px;
 }
 
-.header-text {
+h1 {
+    font-family: "SFUIDisplayMedium", serif;
     margin-top: 60px;
     margin-bottom: 60px;
     width: 822px;
     height: 126px;
     font-size: 26px;
     font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.62;
     letter-spacing: 0.4px;
-    color: #000000;
 }
+
+/*
+  Основные блоки
+*/
 
 .block {
     display: flex;
@@ -49,36 +52,37 @@ footer {
     margin: 0;
     padding: 0;
     height: 30px;
-    font-family: SFUIDisplayBold serif;
+    font-family: "SFUIDisplayBold", serif;
     font-size: 25px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
     letter-spacing: 0.4px;
-    text-align: center;
-    color: #000000;
 }
 
 .block > p {
-    margin: 0;
+    margin: 15px 0 0 0;
     padding: 0;
-    margin-top: 15px;
-    width: 80%;
     height: 40px;
-    font-family: SFUITextRegular serif;
+    font-family: "SFUITextRegular", serif;
     font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.33;
     letter-spacing: -0.2px;
     text-align: center;
-    color: #000000;
 }
 
 .block > img {
     margin-top: 40px;
 }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 1240px;
+    height: 574px;
+}
+
+/*
+ Отдельный подход к Единому виртуальному кабинету депутата
+*/
 
 .evkd {
     width: 1240px;
@@ -89,71 +93,58 @@ footer {
     align-items: center;
 }
 
-.evkd-image {
+.evkd > img {
     margin-left: 90px;
     margin-right: 67px;
 }
 
-.evkd-text-header {
+.evkd > section > h2 {
+    margin: 0 0 30px 0;
+    padding: 0;
+    font-family: "SFUIDisplayHeavy", serif;
     width: 407px;
     height: 76px;
     font-size: 30px;
-    font-weight: 900;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.27;
     letter-spacing: 0.4px;
-    color: #000000;
-    margin-bottom: 30px;
 }
 
-.evkd-text-description {
+.evkd > section > p {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-family: "SFUITextRegular", serif;
     width: 359px;
     height: 60px;
     font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.67;
     letter-spacing: -0.4px;
-    color: #000000;
-    margin-bottom: 20px;
 }
 
-.evkd-text-link {
+.evkd > section > div {
+    font-family: "SFUITextRegular", serif;
     display: flex;
     height: 30px;
     font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.67;
     letter-spacing: -0.4px;
-    color: #000000;
-    cursor: pointer;
 }
 
 .evkd-link {
+    cursor: pointer;
     padding-bottom: 5px;
+    margin-right: 7px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     transition-duration: 300ms;
 }
 
 .evkd-link:hover {
-    margin-right: 4px;
+    margin-right: 11px;
     border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
-.evkd-arrow {
-    margin-left: 7px;
-}
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    width: 1240px;
-    height: 574px;
-}
+/*
+ Уточнения для каждого из блоков
+*/
 
 .slant {
     width: 373px;
@@ -185,18 +176,18 @@ footer {
     background-color: #e5f4eb;
 }
 
+/*
+ Стилизация футера
+*/
 .email, .phone, .address {
     text-decoration: none;
-    font-family: SFUIText;
+    font-family: "SFUITextRegular", serif;
     font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     color: #000000;
 }
 
-.email {
-    margin-right: 50px;
+.phone {
+    margin-left: 50px;
 }
 
 .address {

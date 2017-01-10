@@ -53,6 +53,7 @@ html, body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    -webkit-font-smoothing: antialiased;
 }
 
 header, main, footer {
@@ -79,6 +80,7 @@ h1 {
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.4px;
+    font-weight: initial !important;
 }
 
 /*
@@ -99,6 +101,7 @@ h1 {
     font-family: "SFUIDisplayBold", serif;
     font-size: 25px;
     letter-spacing: 0.4px;
+    font-weight: initial !important;
 }
 
 .block > p {
@@ -151,6 +154,7 @@ h1 {
     font-size: 30px;
     line-height: 1.27;
     letter-spacing: 0.4px;
+    font-weight: initial !important;
 }
 
 .evkd > section > p {

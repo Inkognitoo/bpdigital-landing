@@ -11,6 +11,14 @@ app.get('/', function (req, res) {
     });
 });
 
-app.listen(process.env.PORT, function () {
+//старые версии
+app.get('/old/1', function (req, res) {
+    fs.readFile('./public/old/1/index.html', function(error, content) {
+        response.writeHead(200, { 'Content-Type': 'text/html' });
+        response.end(content, 'utf-8');
+    });
+});
+
+app.listen(process.env.PORT || 3000, function () {
     console.log('Server listening!');
 });
